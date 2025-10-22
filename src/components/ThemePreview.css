@@ -1,0 +1,89 @@
+.theme-preview__domain {
+  background: rgba(30, 41, 59, 0.08);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: rgba(30, 41, 59, 0.7);
+}
+
+.theme-preview__canvas {
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-top-width: 6px;
+  overflow: hidden;
+  background: white;
+  display: grid;
+  gap: 0;
+}
+
+.theme-preview__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  color: white;
+}
+
+.theme-preview__logo {
+  width: 120px;
+  filter: drop-shadow(0 6px 12px rgba(15, 23, 42, 0.2));
+}
+
+.theme-preview__badge {
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.theme-preview__body {
+  padding: 24px 26px;
+  display: grid;
+  gap: 20px;
+}
+
+.theme-preview__card {
+  border-radius: 16px;
+  border: 2px solid;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(248, 250, 252, 0.95);
+}
+
+.theme-preview__card-label {
+  margin: 0;
+  color: rgba(30, 41, 59, 0.6);
+  font-weight: 600;
+}
+
+.theme-preview__card-value {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.theme-preview__chip {
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.theme-preview__grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.theme-preview__tile {
+  border-radius: 14px;
+  padding: 16px;
+  display: grid;
+  gap: 8px;
+  color: rgba(30, 41, 59, 0.82);
+  font-weight: 500;
+}
+
+.theme-preview__tile strong {
+  font-size: 1.1rem;
+}

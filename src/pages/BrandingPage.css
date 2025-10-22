@@ -1,0 +1,17 @@
+.branding-page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.branding-page__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 560px) minmax(0, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1024px) {
+  .branding-page__grid {
+    grid-template-columns: 1fr;
+  }
+}

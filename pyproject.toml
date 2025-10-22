@@ -1,0 +1,23 @@
+[project]
+name = "agency-backend"
+version = "0.1.0"
+description = "Multi-tenant agency white-label backend service"
+authors = ["cto.new AI <noreply@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.22.0",
+    "sqlmodel>=0.0.14",
+    "pydantic[email]>=2.7.0",
+    "python-multipart>=0.0.6"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.4.0",
+    "httpx>=0.24.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
